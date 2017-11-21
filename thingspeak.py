@@ -9,7 +9,7 @@ from datetime import datetime
 
 
 def thingspeak(price_bit,google_price,facebook_price,price_snapchat,amazon_price,apple_price,walmart_price):
-    params = urllib.parse.urlencode({'field1': price_bit,'field2': google_price,'field3': facebook_price,'field4': price_snapchat,'field5': amazon_price, 'field6': apple_price, 'field7': walmart_price,'key': 'LTOWSNYXG7RAG4OG'})
+    params = urllib.parse.urlencode({'field1': price_bit,'field2': google_price,'field3': facebook_price,'field4': price_snapchat,'field5': amazon_price, 'field6': apple_price, 'field7': walmart_price,'key': 'Your-Write-API-Key'})
     headers = {"Content-type":
                    "application/x-www-form-urlencoded", "Accept": "text/plain"}
     conn = http.client.HTTPConnection("api.thingspeak.com:80")
