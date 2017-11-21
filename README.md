@@ -5,7 +5,7 @@ The stocks monitor project is collecting the stock current value of targeted com
 
 
 
-The demo:  Download the App ThinkSpeak or visit the website www.thinkspeak.com /n
-You will need : /n
-Channel Id # 368175 /n
-Read API Keys # AZJIZXIO4643B2CQ /n
+The demo:  Download the App ThinkSpeak or visit the website www.thinkspeak.com 
+You will need : 
+Channel Id # 368175 
+Read API Keys # AZJIZXIO4643B2CQ 
