@@ -9,7 +9,7 @@ from datetime import datetime
 import requests
 
 def thingspeak(price_bit,google_price,facebook_price,price_snapchat,amazon_price,apple_price,walmart_price):
-    params = urllib.parse.urlencode({'field1': price_bit,'field2': google_price,'field3': facebook_price,'field4': price_snapchat,'field5': amazon_price, 'field6': apple_price, 'field7': walmart_price,'key': 'LTOWSNYXG7RAG4OG'})
+    params = urllib.parse.urlencode({'field1': price_bit,'field2': google_price,'field3': facebook_price,'field4': price_snapchat,'field5': amazon_price, 'field6': apple_price, 'field7': walmart_price,'key': 'API Key here'})
     headers = {"Content-type":
                    "application/x-www-form-urlencoded", "Accept": "text/plain"}
     conn = http.client.HTTPConnection("api.thingspeak.com:80")
@@ -89,7 +89,7 @@ while True:
         print("Couldn't write to the file due to "+ str(e))
 
     print("Twitting by thingtweet program")
-    API_KEY = '0A6U41N3X1XO7EIO'
+    API_KEY = 'API KEY here'
     url = "http://api.thingspeak.com/apps/thingtweet/1/statuses/update?api_key="
     fill = "&status="
     url = url + API_KEY + fill
