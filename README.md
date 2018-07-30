@@ -5,7 +5,7 @@ The stocks monitor project is collecting the stock current value of targeted com
 
 
 Twitter page: https://twitter.com/stocks_twitte
-The demo:  Download the App ThinkSpeak or visit the website www.thinkspeak.com 
+The demo:  Download the App ThinkSpeak or visit the website www.thingspeak.com 
 You will need : 
 Channel Id # 368175 
 Read API Keys # AZJIZXIO4643B2CQ 
